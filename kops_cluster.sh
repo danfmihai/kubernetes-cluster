@@ -1,5 +1,5 @@
 # kubernetes-cluster
-```
+
 kops create cluster \
 # this is the name of our cluster \
 --name=kops.example.com \
@@ -27,4 +27,3 @@ kops create cluster \
 --target=terraform \
 # you can create this key pair files \
 --ssh-public-key=~/.ssh/id_rsa.pub
-```
